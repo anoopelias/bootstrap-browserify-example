@@ -1,11 +1,8 @@
 
 var gulp = require('gulp');
-var atomifyCss = require('atomify-css');
-var atomifyJs = require('atomify-js'); 
+var atomify = require('atomify');
+
 gulp.task('default', function () {
-  atomifyCss('less/main.less', 'dist/bundle.css');
-  atomifyJs('js/index.js', 'dist/bundle.js');
+  atomify.css('less/main.less', 'dist/bundle.css');
+  atomify.js('js/index.js', 'dist/bundle.js');
 });
-
-
-

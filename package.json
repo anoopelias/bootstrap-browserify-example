@@ -9,8 +9,7 @@
   "author": "Anoop Elias",
   "license": "MIT",
   "devDependencies": {
-    "atomify-css": "^3.2.2",
-    "atomify-js": "^4.4.0",
+    "atomify": "^6.0.5",
     "gulp": "^3.8.11"
   },
   "dependencies": {
